@@ -1,0 +1,60 @@
+*{
+  moz-user-select: -moz-none;
+  -moz-user-select: none;
+  -o-user-select:none;
+  -khtml-user-select:none;
+  -webkit-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+body{
+  overflow: hidden;
+}
+canvas{
+  display: block;
+  margin: 0;
+  background: #d2b3b3;
+}
+div, button{
+  position: absolute;
+  text-align: center;
+}
+.des{
+  font-size: 30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 200%;
+}
+.left, .right, .P, .N{
+  font-size: 50px;
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.left{
+  left: 50px;
+  bottom: 150px;
+}
+.right{
+  right: 50px;
+  bottom: 150px;
+}
+.P{
+  left: 50px;
+  bottom: 350px;
+}
+.N{
+  right: 50px;
+  bottom: 350px;
+}
+.life{
+  background-color: rgba(244, 255, 65, 0.6);
+  border-radius: 10px;
+  font-size: 40px;
+  padding: 15px 25px;
+  display: none;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  bottom: 50%;
+}
