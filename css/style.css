@@ -9,6 +9,7 @@
 }
 body{
   overflow: hidden;
+  background: #E4B373;
 }
 canvas{
   display: block;
