@@ -74,7 +74,7 @@ class Game {
       // 清除画布
       this.context.clearRect(0, 0, this.canvas.width, this.canvas.height)
       this.context.font = '48px Microsoft YaHei'
-      this.context.fillText('游戏结束', (this.canvas.width - 48 * 4) / 2.0, this.canvas.height / 2.0)
+      this.context.fillText('game over', (this.canvas.width - 48 * 4) / 2.0, this.canvas.height / 2.0)
       // 隐藏复活按钮
       // this.lifeBtn.style.display = "none";
     // }
@@ -86,7 +86,7 @@ class Game {
     // 清除画布
     this.context.clearRect(0, 0, this.canvas.width, this.canvas.height)
     this.context.font = '48px Microsoft YaHei'
-    this.context.fillText('恭喜晋级下一关卡', (this.canvas.width - 48 * 8) / 2.0, this.canvas.height / 2.0)
+    this.context.fillText('Congratulations on reaching the next level', (this.canvas.width - 48 * 8) / 2.0, this.canvas.height / 2.0)
   }
   // 游戏通关
   finalGame () {
@@ -95,7 +95,7 @@ class Game {
     // 清除画布
     this.context.clearRect(0, 0, this.canvas.width, this.canvas.height)
     this.context.font = '48px Microsoft YaHei'
-    this.context.fillText('恭喜通关全部关卡', (this.canvas.width - 48 * 8) / 2.0, this.canvas.height / 2.0)
+    this.context.fillText('Congratulations on clearing', (this.canvas.width - 48 * 8) / 2.0, this.canvas.height / 2.0)
   }
   // 设置逐帧动画
   setTimer (paddle, ball, blockList, score) {

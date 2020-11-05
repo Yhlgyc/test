@@ -13,7 +13,7 @@ body{
 canvas{
   display: block;
   margin: 0;
-  background: #d2b3b3;
+  background: #d2b365;
 }
 div, button{
   position: absolute;
@@ -41,12 +41,12 @@ div, button{
   bottom: 150px;
 }
 .P{
-  left: 50px;
-  bottom: 350px;
+  left: 250px;
+  bottom: 150px;
 }
 .N{
-  right: 50px;
-  bottom: 350px;
+  right: 250px;
+  bottom: 150px;
 }
 .life{
   background-color: rgba(244, 255, 65, 0.6);
